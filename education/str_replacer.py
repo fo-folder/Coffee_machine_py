@@ -1,0 +1,7 @@
+lad = str(input())
+lad = lad.replace("?", "")
+lad = lad.replace("!", "")
+lad = lad.replace(",", "")
+lad = lad.replace(".", "")
+lad = lad.strip()
+print(lad.lower())
